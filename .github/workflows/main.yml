@@ -1,0 +1,11 @@
+name: First Workflow 
+on: [push]
+jobs:
+  first-Workflow
+    runs-on: ubuntu-latest
+
+    steps:
+       - name: first steps
+         run: |
+          echo "Hello, silnet Solution"
+          echo "hello, systemadmin are u there"
